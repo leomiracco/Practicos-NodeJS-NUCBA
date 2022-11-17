@@ -1,0 +1,1 @@
+console.log('App para guardar nuestos gastos en un archivo JSON');
