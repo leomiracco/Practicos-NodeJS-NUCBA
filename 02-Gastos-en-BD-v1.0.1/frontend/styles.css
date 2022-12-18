@@ -1,0 +1,26 @@
+.main-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+tr > *{
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+#createExpenseForm > *{
+  margin-top: 10px;
+}
+
+#createExpenseForm{
+  text-align: right;
+}
+
+.button-container{
+  /* text-align: center; */
+}
+
+.button-container button{
+  width: 172.41px;
+}
