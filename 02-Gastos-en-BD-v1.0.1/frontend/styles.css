@@ -24,3 +24,8 @@ tr > *{
 .button-container button{
   width: 172.41px;
 }
+
+.description-error,
+.amount-error{
+  color: red;
+}

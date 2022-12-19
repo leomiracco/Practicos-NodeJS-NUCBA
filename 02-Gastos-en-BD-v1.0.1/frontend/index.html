@@ -11,6 +11,7 @@
   
   <div class="main-container">
     <div class="table-container">
+      <h1>Tabla para el Registro de Gastos (<span class="span-number-of-records"></span>)</h1>
       <table id="expense-table">
         <thead>
           <tr>
@@ -20,24 +21,19 @@
           </tr>
         </thead>
         <tbody id="expense-table-body">
-          <!-- <tr>
-            <td>15645641151</td>
-            <td>Monitor</td>
-            <td>$210000</td>
-          </tr> -->
         </tbody>
       </table>
     </div>
     <div class="form-container">
-      <h1>Crear Registro de Gastos</h1>
+      <h2>Crear Registro de Gastos</h2>
       <form id="createExpenseForm">
         <div class="description-container">
           <label for="description">Description:</label>
-          <input id="description" name="description" type="text">
+          <input id="description" name="description" type="text" placeholder="Descripción del gasto...">
         </div>
         <div class="amount-container">
           <label for="amount">Amount:</label>
-          <input id="amount" name="amount" type="text">
+          <input id="amount" name="amount" type="text" placeholder="Monto del gasto...">
         </div>
         <div class="button-container">
           <button type="submit">Ingresar Gasto</button>
@@ -46,6 +42,6 @@
     </div>
   </div>
 
-  <script src="./script.js" type="module"></script>
+  <script src="./start.js" type="module"></script>
 </body>
 </html>
